@@ -1,0 +1,80 @@
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.836);
+}
+.card-body {
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+.stat-text {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.stat-digit {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.description {
+    font-size: 1em;
+    margin-top: 15px;
+    text-align: left;
+}
+.description ul {
+    text-align: left;
+    padding-left: 20px;
+}
+.description ul li {
+    margin-bottom: 5px;
+}
+.description p {
+    margin-bottom: 10px;
+}
+.bullet-icon {
+    margin-right: 10px;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card {
+    animation: fadeInUp 0.5s ease forwards;
+}
+.highlight {
+    color: #722F37;
+    font-weight: bold;
+}
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-eq-height > .col-lg-4 {
+    display: flex;
+}
+.card {
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    height: 100%;
+}
+
+.stat-widget-two {
+    height: 100%;}

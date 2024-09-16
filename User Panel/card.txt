@@ -1,0 +1,33 @@
+Card Declined
+
+Card Number: 4000 0000 0000 9995
+Card with Insufficient Funds
+
+Card Number: 4000 0000 0000 9995
+Expired Card
+
+Card Number: 4000 0000 0000 0069
+Incorrect CVC
+
+Card Number: 4000 0000 0000 0127
+Processing Error
+
+Card Number: 4000 0000 0000 0119
+Incorrect Number
+
+Card Number: 4242 4242 4242 4241
+Declined for lost card
+
+Card Number: 4000 0000 0000 9987
+Declined for stolen card
+
+Card Number: 4000 0000 0000 9979
+Invalid Expiry Month
+
+Card Number: 4000 0000 0000 0069
+Invalid Expiry Year
+
+Card Number: 4000 0000 0000 0085
+Invalid CVC
+
+Card Number: 4000 0000 0000 0101
